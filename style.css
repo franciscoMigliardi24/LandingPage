@@ -190,4 +190,14 @@ input[type=submit]:hover {
     margin: 0;
     margin-top: 1vh;
   }
+  body{
+    background: url("https://lh5.googleusercontent.com/proxy/4buh_hri9xvZxl7fnie0Akz88InK7iB3gT8ahsaLsqdiWLPLKK7xT80NSygiEQ_BtSkCS3gCYz4akWvXNklzqqS3sdh2dcwlPBoDcyAX7cy6cUxit1pmQvQSXOzHx59L9eiiPQ") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
 }
