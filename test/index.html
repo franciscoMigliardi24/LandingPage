@@ -186,24 +186,23 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <form id="contactForm" name="sentMessage" method="POST" netlify name="contacto" netlify-honeypot="bot-field" data-netlify="true">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor ingrese su nomre" />
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Por favor ingrese su nomre" />
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Mail" required="required" data-validation-required-message="Por favor ingrese su mail." />
+                                <input class="form-control" name="email" id="email" type="email" placeholder="Mail" required="required" data-validation-required-message="Por favor ingrese su mail." />
                             </div>
                             <div class="form-group mb-md-0">
-                                <input class="form-control" id="phone" type="tel" placeholder="Telefono" required="required" data-validation-required-message="Por favor ingrese su telefono." />
+                                <input class="form-control" name="phone" id="phone" type="tel" placeholder="Telefono" required="required" data-validation-required-message="Por favor ingrese su telefono." />
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group form-group-textarea mb-md-0">
-                                <textarea class="form-control" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingrese un mensaje."></textarea>
+                                <textarea class="form-control" name="message" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Por favor ingrese un mensaje."></textarea>
                             </div>
                         </div>
                     </div>
