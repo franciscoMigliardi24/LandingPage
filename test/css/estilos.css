@@ -10094,7 +10094,7 @@ header.masthead {
   text-align: center;
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-  rgba(0, 0, 0, 0.5)), url("../assets/fotos/fondo-Principal.jpg");
+  rgba(0, 0, 0, 0.5)), url("../fotos/fondo-Principal.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10399,7 +10399,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/fotos/map-image.png");
+  background-image: url("../fotos/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
